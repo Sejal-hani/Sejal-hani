@@ -2,64 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Cookie Bite</title>
+  <title>Sejal in Space 🌌</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      background: linear-gradient(to bottom right, #fceabb, #f8b500);
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 0;
+      height: 100%;
+      background: black;
       overflow: hidden;
       font-family: 'Segoe UI', sans-serif;
+      color: white;
     }
 
-    #cookie {
-      width: 120px;
-      transition: transform 0.2s ease;
-      cursor: pointer;
-    }
-
-    .crumb {
+    canvas {
+      display: block;
       position: absolute;
-      width: 12px;
-      height: 12px;
-      background-color: #A0522D;
-      border-radius: 50%;
-      animation: fall 1.2s forwards;
+      z-index: 0;
     }
 
-    @keyframes fall {
-      0% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0.8; transform: translateY(90vh); }
+    .center-text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 1;
+    }
+
+    .center-text h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    .center-text p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #6cf, 0 0 30px #0ff; }
+      to   { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; }
     }
   </style>
 </head>
 <body>
-  <img id="cookie" src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/cookie-whole.png" alt="Cookie" />
+  <canvas id="stars"></canvas>
+
+  <div class="center-text">
+    <h1>🌌 Welcome to My Galaxy</h1>
+    <p>Hovering quietly between code and constellations.</p>
+  </div>
 
   <script>
-    const cookie = document.getElementById("cookie");
-    let bitten = false;
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
 
-    cookie.addEventListener("click", () => {
-      if (!bitten) {
-        cookie.src = "https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/cookie-bitten.png";
-        bitten = true;
-        dropCrumbs();
-      }
-    });
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
 
-    function dropCrumbs() {
-      for (let i = 0; i < 10; i++) {
-        const crumb = document.createElement("div");
-        crumb.classList.add("crumb");
-        crumb.style.left = (cookie.offsetLeft + 40 + Math.random() * 40) + "px";
-        crumb.style.top = (cookie.offsetTop + 30) + "px";
-        document.body.appendChild(crumb);
+    function createStars(count) {
+      stars = [];
+      for (let i = 0; i < count; i++) {
+        stars.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: Math.random() * 1.5,
+          speed: Math.random() * 0.2 + 0.1
+        });
       }
     }
+
+    function drawStars() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = 'white';
+      for (let star of stars) {
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+        ctx.fill();
+        star.y += star.speed;
+        if (star.y > canvas.height) {
+          star.y = 0;
+          star.x = Math.random() * canvas.width;
+        }
+      }
+      requestAnimationFrame(drawStars);
+    }
+
+    window.addEventListener('resize', () => {
+      resizeCanvas();
+      createStars(150);
+    });
+
+    resizeCanvas();
+    createStars(150);
+    drawStars();
   </script>
 </body>
 </html>
