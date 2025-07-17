@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cookie 🍪</title>
+  <meta charset="UTF-8" />
+  <title>Cookie Crumble 🍪</title>
   <style>
     body {
       margin: 0;
@@ -13,47 +13,42 @@
       justify-content: center;
       align-items: center;
       font-family: 'Segoe UI', sans-serif;
+      position: relative;
     }
 
     .cookie {
-      width: 100px;
-      height: 100px;
-      background: url('https://emojicdn.elk.sh/🍪') no-repeat center center / contain;
+      width: 120px;
+      height: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
       cursor: pointer;
       transition: transform 0.2s ease;
-    }
-
-    .cookie:active {
-      transform: scale(0.95);
     }
 
     .crumb {
       position: absolute;
       width: 10px;
       height: 10px;
-      background: #6B4F1D;
+      background: #6b4f1d;
       border-radius: 50%;
       opacity: 0.9;
-      animation: fall 1s ease-in forwards;
+      animation: fall 1.2s ease-in forwards;
     }
 
     @keyframes fall {
       0% {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         opacity: 1;
+        transform: translateY(0);
       }
       100% {
-        top: 95%;
-        transform: translate(-50%, 0) scale(0.7);
+        transform: translateY(80vh);
         opacity: 1;
       }
     }
 
-    .bottom {
+    .crumbs-container {
       position: absolute;
-      bottom: 5%;
+      bottom: 10px;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -63,28 +58,21 @@
   </style>
 </head>
 <body>
-  <div class="cookie" onclick="eatCookie()"></div>
-  <div class="bottom" id="crumbZone"></div>
+  <div id="cookie" class="cookie"></div>
+  <div class="crumbs-container" id="crumbs"></div>
 
   <script>
-    let bites = 0;
+    const cookie = document.getElementById('cookie');
+    const crumbs = document.getElementById('crumbs');
+
+    const biteStages = [
+      "https://i.imgur.com/w1X7aUd.png", // full
+      "https://i.imgur.com/8MArJv7.png", // 1 bite
+      "https://i.imgur.com/ZMYsm1G.png", // 2 bites
+      "https://i.imgur.com/GjxS2uF.png", // 3 bites
+    ];
+
+    let currentBite = 0;
 
     function eatCookie() {
-      bites++;
-      createCrumb();
-      if (bites >= 3) {
-        document.querySelector('.cookie').style.opacity = '0.4';
-      }
-    }
-
-    function createCrumb() {
-      const crumb = document.createElement('div');
-      crumb.classList.add('crumb');
-
-      const crumbZone = document.getElementById('crumbZone');
-      crumbZone.appendChild(crumb);
-    }
-  </script>
-</body>
-</html>
-
+      i
