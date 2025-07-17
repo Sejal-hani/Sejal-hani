@@ -49,6 +49,5 @@
     <img src="https://emojicdn.elk.sh/🍪" width="60px" alt="Click me!" />
   </a>
 </p>
-<p align="center"><sub><i>Click the cookie. Watch the crumbs fall.</i></sub></p>
-
+<p align="center"><sub><i>Click the cookie. Watch it crumble.</i></sub></p>
 
