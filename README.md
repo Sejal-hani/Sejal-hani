@@ -50,14 +50,11 @@
 
 ---
 
-### 🌌 Step Into My World
-
 <p align="center">
-  <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">
-    🌌
-  </a>
+  <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">🌌</a>
 </p>
+<p align="center"><sub><i>Click that 🪐</i></sub></p>
 
 
-<p align="center"><sub><i>Click Click🪐✨</i></sub></p>
+
 
