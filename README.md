@@ -27,16 +27,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
----
 
-### 🍪 Cookie Portal
 
-<p align="center">
-  <a href="https://sejal-hani.github.io/crumb-cookie/" target="_blank">
-    <img src="https://emojicdn.elk.sh/🍪" width="50px" />
-  </a>
-</p>
-<p align="center"><sub><i>Something sweet falls when you click...</i></sub></p>
 
 ---
 
@@ -52,5 +44,11 @@
 </p>
 
 ---
+<p align="center">
+  <a href="https://Sejal-hani.github.io/Sejal-hani/" target="_blank">
+    <img src="https://emojicdn.elk.sh/🍪" width="60px" alt="Click me!" />
+  </a>
+</p>
+<p align="center"><sub><i>Click the cookie. Watch the crumbs fall.</i></sub></p>
 
-<p align="center"><i>Welcome to my profile and don't eat sand.</i></p>
+
