@@ -27,9 +27,9 @@ I don’t speak in buzzwords. I build in silence.
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=your-username&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Sejal-hani&theme=tokyonight" />
   <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&theme=tokyonight" />
 </p>
 
 ---
@@ -45,13 +45,72 @@ I don’t speak in buzzwords. I build in silence.
   </a>
 </p>
 
----
+
+
+
 
 <p align="center"><i>I don't want to add any more cheesy lines, here's a cookie tho! 🍪 </i></p>
 
 
 <!--
-**Sejal-hani/Sejal-hani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**S<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍪 Cookie Crumbs</title>
+  <style>
+    body {
+      background: #1e1e1e;
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+    }
+    .cookie {
+      font-size: 100px;
+      cursor: pointer;
+      margin-top: 100px;
+      transition: transform 0.2s ease;
+    }
+    .cookie:hover {
+      transform: scale(1.2);
+    }
+    .crumb {
+      position: absolute;
+      bottom: -50px;
+      font-size: 20px;
+      opacity: 0.8;
+      animation: fall 2s forwards;
+    }
+    @keyframes fall {
+      0% { bottom: 100px; opacity: 1; }
+      100% { bottom: 10px; opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<h2>Click the cookie to eat it 🍪</h2>
+<div class="cookie" id="cookie">🍪</div>
+<script>
+  const cookie = document.getElementById('cookie');
+  cookie.addEventListener('click', () => {
+    cookie.style.display = 'none';
+    for (let i = 0; i < 7; i++) {
+      let crumb = document.createElement('div');
+      crumb.className = 'crumb';
+      crumb.innerText = '🍞';
+      crumb.style.left = `${Math.random() * window.innerWidth}px`;
+      document.body.appendChild(crumb);
+    }
+  });
+</script>
+
+</body>
+</html>
+ejal-hani/Sejal-hani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
