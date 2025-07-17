@@ -2,77 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Cookie Crumble 🍪</title>
+  <title>Cookie Bite</title>
   <style>
     body {
       margin: 0;
-      background: linear-gradient(to bottom, #fef6e4, #f3d9b1);
+      background: linear-gradient(to bottom right, #fceabb, #f8b500);
       height: 100vh;
-      overflow: hidden;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
+      overflow: hidden;
       font-family: 'Segoe UI', sans-serif;
-      position: relative;
     }
 
-    .cookie {
+    #cookie {
       width: 120px;
-      height: 120px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      cursor: pointer;
       transition: transform 0.2s ease;
+      cursor: pointer;
     }
 
     .crumb {
       position: absolute;
-      width: 10px;
-      height: 10px;
-      background: #6b4f1d;
+      width: 12px;
+      height: 12px;
+      background-color: #A0522D;
       border-radius: 50%;
-      opacity: 0.9;
-      animation: fall 1.2s ease-in forwards;
+      animation: fall 1.2s forwards;
     }
 
     @keyframes fall {
-      0% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      100% {
-        transform: translateY(80vh);
-        opacity: 1;
-      }
-    }
-
-    .crumbs-container {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      pointer-events: none;
+      0% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0.8; transform: translateY(90vh); }
     }
   </style>
 </head>
 <body>
-  <div id="cookie" class="cookie"></div>
-  <div class="crumbs-container" id="crumbs"></div>
+  <img id="cookie" src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/cookie-whole.png" alt="Cookie" />
 
   <script>
-    const cookie = document.getElementById('cookie');
-    const crumbs = document.getElementById('crumbs');
+    const cookie = document.getElementById("cookie");
+    let bitten = false;
 
-    const biteStages = [
-      "https://i.imgur.com/w1X7aUd.png", // full
-      "https://i.imgur.com/8MArJv7.png", // 1 bite
-      "https://i.imgur.com/ZMYsm1G.png", // 2 bites
-      "https://i.imgur.com/GjxS2uF.png", // 3 bites
-    ];
+    cookie.addEventListener("click", () => {
+      if (!bitten) {
+        cookie.src = "https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/cookie-bitten.png";
+        bitten = true;
+        dropCrumbs();
+      }
+    });
 
-    let currentBite = 0;
-
-    function eatCookie() {
-      i
+    function dropCrumbs() {
+      for (let i = 0; i < 10; i++) {
+        const crumb = document.createElement("div");
+        crumb.classList.add("crumb");
+        crumb.style.left = (cookie.offsetLeft + 40 + Math.random() * 40) + "px";
+        crumb.style.top = (cookie.offsetTop + 30) + "px";
+        document.body.appendChild(crumb);
+      }
+    }
+  </script>
+</body>
+</html>
