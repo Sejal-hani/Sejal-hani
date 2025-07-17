@@ -1,105 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Sejal in Space 🌌</title>
+  <meta charset="UTF-8">
+  <title>Sejal's Galaxy</title>
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      height: 100%;
-      background: black;
+      background: radial-gradient(ellipse at center, #0b0c2a 0%, #000000 100%);
       overflow: hidden;
-      font-family: 'Segoe UI', sans-serif;
+      height: 100vh;
       color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    canvas {
-      display: block;
+    .star {
       position: absolute;
-      z-index: 0;
+      background: white;
+      border-radius: 50%;
+      width: 2px;
+      height: 2px;
+      animation: twinkle 2s infinite ease-in-out;
     }
 
-    .center-text {
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+
+    h1 {
       text-align: center;
-      z-index: 1;
-    }
-
-    .center-text h1 {
       font-size: 3rem;
-      margin: 0;
+      margin-top: 40vh;
       animation: glow 2s ease-in-out infinite alternate;
     }
 
-    .center-text p {
-      font-size: 1.2rem;
-      opacity: 0.8;
-    }
-
     @keyframes glow {
-      from { text-shadow: 0 0 10px #fff, 0 0 20px #6cf, 0 0 30px #0ff; }
-      to   { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; }
+      from { text-shadow: 0 0 10px #7fd4ff; }
+      to { text-shadow: 0 0 30px #ffffff, 0 0 20px #00cfff; }
     }
   </style>
 </head>
 <body>
-  <canvas id="stars"></canvas>
-
-  <div class="center-text">
-    <h1>🌌 Welcome to My Galaxy</h1>
-    <p>Hovering quietly between code and constellations.</p>
-  </div>
-
+  <h1>Welcome to Sejal's Galaxy 🌌</h1>
   <script>
-    const canvas = document.getElementById('stars');
-    const ctx = canvas.getContext('2d');
-    let stars = [];
-
-    function resizeCanvas() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+    for (let i = 0; i < 150; i++) {
+      const star = document.createElement('div');
+      star.className = 'star';
+      star.style.top = Math.random() * 100 + 'vh';
+      star.style.left = Math.random() * 100 + 'vw';
+      star.style.animationDuration = (1 + Math.random() * 2) + 's';
+      document.body.appendChild(star);
     }
-
-    function createStars(count) {
-      stars = [];
-      for (let i = 0; i < count; i++) {
-        stars.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
-          radius: Math.random() * 1.5,
-          speed: Math.random() * 0.2 + 0.1
-        });
-      }
-    }
-
-    function drawStars() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = 'white';
-      for (let star of stars) {
-        ctx.beginPath();
-        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fill();
-        star.y += star.speed;
-        if (star.y > canvas.height) {
-          star.y = 0;
-          star.x = Math.random() * canvas.width;
-        }
-      }
-      requestAnimationFrame(drawStars);
-    }
-
-    window.addEventListener('resize', () => {
-      resizeCanvas();
-      createStars(150);
-    });
-
-    resizeCanvas();
-    createStars(150);
-    drawStars();
   </script>
 </body>
 </html>
