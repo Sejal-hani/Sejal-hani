@@ -48,13 +48,16 @@
 
 ---
 
+---
+
 ### 🌌 Step Into My World
 
 <p align="center">
   <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">
-    <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="250px" alt="Galaxy Portal" />
+    🌌
   </a>
 </p>
+
 
 <p align="center"><sub><i>Click Click🪐✨</i></sub></p>
 
