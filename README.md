@@ -44,12 +44,14 @@
 </p>
 
 ---
-### 🍪 A Cookie For You
+---
+
+### 🌌 Take a look
 
 <p align="center">
   <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">
-    <img src="https://emojicdn.elk.sh/🍪" width="80px" alt="Click the cookie" />
+    <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="250px" alt="Galaxy Portal" />
   </a>
 </p>
 
-<p align="center"><sub><i>Click it. Watch it bite. Let the crumbs fall like little secrets. 🍪✨</i></sub></p>
+<p align="center"><sub><i>🪐✨</i></sub></p>
