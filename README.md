@@ -2,7 +2,7 @@
 <p align="center"><i>Actions speak louder than words but I prefer silence.</i></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F2AAF0&center=true&vCenter=true&width=600&lines=Crafting+in+quiet+corners+of+code.;Glitches+and+galaxies.;this+is+all+ai+generated+%F0%9F%8D%AA+if+you+can+find+it." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F2AAF0&center=true&vCenter=true&width=600&lines=Crafting+in+quiet+corners+of+code.;Glitches+and+galaxies.;this+is+all+ai+generated" alt="Typing SVG" />
 </p>
 
 ---
