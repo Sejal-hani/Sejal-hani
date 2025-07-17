@@ -1,13 +1,13 @@
 <h1 align="center">Hi, I'm Sejal 🦋</h1>
-<p align="center"><i>Exploring soft universes inside hard tech.</i></p>
+<p align="center"><i>Actions speak louder than words but I prefer silence.</i></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F2AAF0&center=true&vCenter=true&width=600&lines=Crafting+in+quiet+corners+of+code.;Glitches+and+galaxies.;Click+the+cookie+%F0%9F%8D%AA+if+you+can+find+it." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=F2AAF0&center=true&vCenter=true&width=600&lines=Crafting+in+quiet+corners+of+code.;Glitches+and+galaxies.;this+is+all+ai+generated+%F0%9F%8D%AA+if+you+can+find+it." alt="Typing SVG" />
 </p>
 
 ---
 
-### 🌙 Tech I’m Comfortable In
+### Noobest individual on planet earth
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-9b59b6?style=for-the-badge&logo=java&logoColor=white" />
@@ -53,4 +53,4 @@
 
 ---
 
-<p align="center"><i>Welcome to the space between silence and source code.</i></p>
+<p align="center"><i>Welcome to my profile and don't eat sand.</i></p>
