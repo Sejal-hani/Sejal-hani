@@ -44,10 +44,12 @@
 </p>
 
 ---
+### 🍪 A Cookie For You
+
 <p align="center">
-  <a href="https://Sejal-hani.github.io/Sejal-hani/" target="_blank">
-    <img src="https://emojicdn.elk.sh/🍪" width="60px" alt="Click me!" />
+  <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">
+    <img src="https://emojicdn.elk.sh/🍪" width="80px" alt="Click the cookie" />
   </a>
 </p>
-<p align="center"><sub><i>Click the cookie. Watch it crumble.</i></sub></p>
 
+<p align="center"><sub><i>Click it. Watch it bite. Let the crumbs fall like little secrets. 🍪✨</i></sub></p>
