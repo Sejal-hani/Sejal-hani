@@ -52,5 +52,5 @@
 <p align="center"><sub><i>Click that 🪐</i></sub></p>
 
 
-![snake animation](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-snake.svg)
 
