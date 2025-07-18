@@ -49,6 +49,8 @@
 
 <p align="center">
   <em>I'm proud to support this cause that helps send girls to school.</em><br>
+
+
   
   <a href="https://r.give.do/nkWRFLJ4" target="_blank">
     <img src="https://img.shields.io/badge/Support Education 🌸-purple?style=for-the-badge&logo=githubsponsors&logoColor=white" />
@@ -61,7 +63,6 @@
 
 
 <p align="center">
-  ![GitHub Snake](https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-snake.svg)
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-snake.svg" />
 </p>
-
 
