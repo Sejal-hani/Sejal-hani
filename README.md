@@ -35,21 +35,28 @@
 ### 🧭 Connect (if you're wandering too)
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-1abc9c?style=flat&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/sejal-patil-355452331" target="_blank">
+    <img src="https://img.shields.io/badge/Connect on LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:your@email.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-e74c3c?style=flat&logo=gmail&logoColor=white" />
+  <a href="mailto:sejallearnsonline@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Send me an Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-
 
 ---
 
+### 🎓 Sponsor a Girl's Education
+
 <p align="center">
-  <a href="https://sejal-hani.github.io/Sejal-hani/" target="_blank">🌌</a>
+  <em>I'm proud to support this cause that helps send girls to school.</em><br>
+  <a href="https://r.give.do/nkWRFLJ4" target="_blank">
+    <img src="https://img.shields.io/badge/Support Education 🌸-purple?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  </a>
 </p>
-<p align="center"><sub><i>Click that 🪐</i></sub></p>
+
+---
+
+### 🐍 GitHub Contribution Snake (because why not make it fun?)
 
 
 ![GitHub Snake](https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-snake.svg)
