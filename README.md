@@ -22,9 +22,9 @@
 ### 🌌 GitHub Galaxy
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Sejal-hani&theme=tokyonight&hide_border=true" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Sejal-hani&theme=tokyonight&hide_border=true&t=1" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&theme=tokyonight&hide_border=true&t=1" />
 </p>
 
 
