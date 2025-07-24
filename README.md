@@ -7,15 +7,21 @@
 
 ---
 
-### Noobest individual on planet earth
+### Noobest individual on planet earth but look at my tech stack
 
 <p align="center">
+### 🛠️ Tech Stack
+
+<p align="left">
   <img src="https://img.shields.io/badge/Java-9b59b6?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-2980b9?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C-34495e?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F39C12?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-2C3E50?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-2980b9?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F1502F?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
+
 
 ---
 
