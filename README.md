@@ -12,7 +12,7 @@
 <p align="center">
 ### 🛠️ Tech Stack
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Java-9b59b6?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/C-34495e?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-2980b9?style=for-the-badge&logo=python&logoColor=white" />
