@@ -10,7 +10,7 @@
 ### Noobest individual on planet earth but look at my tech stack
 
 <p align="center">
-### 🛠️ Tech Stack
+ Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-9b59b6?style=for-the-badge&logo=java&logoColor=white" />
