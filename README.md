@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
+<!-- <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
 <h1 align="center">Hi, I'm Sejal 🦋</h1>
 <p align="center"><i>SiS</i></p>
 
@@ -70,4 +70,4 @@
 
 <p align="center">
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-snake.svg" />
-</p>
+</p> -->
