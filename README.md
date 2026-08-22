@@ -1,82 +1,193 @@
-Here is a complete, copy-pasteable Y2K / Shojo / Neocities Windows-OS GitHub
-Profile README layout directly inspired by your references (Dollhouse Y2K &
-Mopricot/Shojo Neocities).
-
-It uses GitHub-supported HTML tables, retro window title bars, Winamp/MP3 player
-mockups, a Cbox chatbox emulator, stamps, sticky notes, and a Windows taskbar
-footer.
-
-🎀 The Raw Markdown (README.md)
-
 <div align="center">
 
-<!-- TOP TICKER RIBBON -->
-```text
-★ NEW LOG ENTRY! ✦ CHECK OUT MY PROJECTS ✦ (｡♥‿♥｡) WELCOME TO MY DIGITAL DOLLHOUSE ✦ SIGN MY GUESTBOOK ★
+<!-- TOP VINTAGE BANNER -->
+<img src="https://blob.gifcities.org/gifcities/SDP2Y4CE4VCCWQYJIUOOMUWBQQPNTZ6T.gif" width="100%" />
 
-╭── [ 🎀 char_card.png ] ── [✕] ╮
+<!-- TOP STAMP & BLINKIE ROW -->
+<p align="center">
+  <img src="https://cyber.dabamos.de/88x31/7nonsense.gif" />
+  <img src="https://cyber.dabamos.de/88x31/cooltxt.gif" />
+  <img src="https://cyber.dabamos.de/88x31/mysql-88x31-bow.gif" />
+  <img src="https://blinkies.cafe/b/display/blinkiesCafe-badge.gif" />
+  <img src="https://cyber.dabamos.de/88x31/vscbutton.gif" />
+  <img src="https://cyber.dabamos.de/88x31/linux_powered.gif" />
+</p>
 
-Age     : 20-something
-Class   : Code Sorceress
-Sign    : ♉ Taurus
-Likes   : Shojo Manga, Boba,
-          CSS Art, Shaders
-Dislikes: Merge Conflicts,
-          Cold Coffee
+</div>
 
-╭── [ 📂 quick_links ] ──── [✕] ╮
+<br/>
 
-  - 🌸 Portfolio Site
-  - 🍓 Cute Blog
-  - 🔮 Dev Repositories
-  - 💌 Email Me
+<!-- ================= TOP SECTION: ID CARD & TECH STACK ================= -->
+<table align="center" width="100%">
+<tr>
 
-╭── [ 🌸 welcome.html ] ──────────────── [─ □ ✕] ╮
+<!-- LEFT: ID CARD (PHOTO + DETAILS) -->
+<td width="34%" valign="top" align="center">
 
-Welcome to my cozy corner of cyberspace! I build indie websites, cute
-interactive experiments, and open-source tools.
+<img src="https://blob.gifcities.org/gifcities/PNFV47MN3BSCNWV5G3MOSBEZJOPSWXGC.gif" width="200" style="border: 2px solid #333;" />
+<br/><br/>
 
-🍓 status_report.txt
+<pre align="left"><code>[IDENTIFICATION]
+USER       : [YOUR_NAME]
+ROLE       : Software Engineer
+FAV_COLOR  : #D8B4E2 (Lavender / Soft Purple)
+FOCUS      : Full-Stack & System Design
+STATUS     : Online / Compiling</code></pre>
 
-  - 🎀 Currently building: A cozy web-ring & pixel shader sandbox
-  - 🧋 Learning: WebGL / Rust / Retro 90s CSS styling
-  - 💌 Obsessions: Sugar Sugar Rune, Windows 2000 skins, Fruity loops
+<p align="center">
+  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
+  <img src="https://blob.gifcities.org/gifcities/YKAHNHNJJWOVQ6QD62CLVZYGTXLWRYJM.gif" />
+</p>
 
-┌── 📌 [ post-it reminder ] ────────┐
-│  ☆ drink your water!              │
-│  ☆ commit & push your code        │
-│  ☆ be kind & call your bff        │
-│  ☆ star this repository! ⭐       │
-└───────────────────────────────────┘
+</td>
 
-🔮 cute_projects.exe
+<!-- RIGHT: PROFESSIONAL TECH STACK & LEETCODE -->
+<td width="66%" valign="top">
 
-  - 💖 [Project Doll] — A 2000s desktop pet widget for the browser
-  - 🎀 [Y2K-CSS] — A nostalgic CSS library with pastel window frames
-  - 🍡 [Boba-Engine] — Minimal static site generator for digital gardens
+<h3><b>TECH STACK & ARSENAL</b></h3>
 
-╭── [ 🎵 winamp.exe ] ───── [✕] ╮
+<b>Languages:</b><br/>
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=mysql&logoColor=white" />
+</p>
 
-┌── 💿 [ tracklist ] ───────────────┐
-│ 01  vida digital           2:45   │
-│ 02▸ internet angel (live)  3:12 ♫ │
-│ 03  dial-up love           4:09   │
-│ 04  cyber crush            3:33   │
-│ 05  pixel heart            2:22   │
-└───────────────────────────────────┘
+<b>Frameworks & Backend:</b><br/>
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
 
-╭── [ 💬 cbox_tagboard ] ── [✕] ╮
+<b>Developer Tools:</b><br/>
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
+</p>
 
-[10:14] 🎀 bunny: ur site is soooo kyooot!
-[10:32] 🍓 dev: ahhh thank you sm! ♡
-[11:05] 🌸 anon: love the indie web vibe
+<hr style="border: 1px solid #eaeaea;" />
 
-┌────────────────────────── 🎀 [ digital stamp collection ] 🎀 ──────────────────────────┐
+<b>Competitive Programming & Problem Solving:</b><br/>
+<p>
+  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode_Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+</p>
+<img src="https://leetcode-stats-api.herokuapp.com/api?username=YOUR_LEETCODE_USERNAME&theme=Light" width="100%" />
 
-╭────────────────────────────────────────────────────────────────────────────────────────╮
-│  ← [Prev Room]  •  [ 🐾 ♡ KAWAII SHOJO WEBRING ♡ 🐾 ]  •  [Next Room] →              │
-╰────────────────────────────────────────────────────────────────────────────────────────╯
+</td>
+</tr>
+</table>
 
-© 2004-2026 • Designed for viewing on 800x600 resolution • Made with 💖 and CSS
-magic
+<br/>
 
+<!-- ================= ABOUT ME SECTION WITH BLINKIES ================= -->
+<table align="center" width="100%">
+<tr>
+<td style="padding: 15px;">
+
+<div align="right">
+  <img src="https://blob.gifcities.org/gifcities/ZCR2MLQRZ3LMT4D77CX7ZPMPNAHW4YJB.gif" />
+</div>
+
+<h3><b>ABOUT ME</b></h3>
+
+<p>
+  Just a girl with a computer building software, exploring backend systems, and solving algorithms. When I am not writing code or practicing data structures, I am curating retro web designs, experimenting with creative tools, and exploring the indie web revival.
+</p>
+
+<!-- 3 SPECIFIC BLINKIES -->
+<p align="center">
+  <img src="https://blinkies.cafe/b/blinkiesCafe-DP.gif" />
+  <img src="https://blinkies.cafe/b/display/0275-spiderweb.gif" />
+  <img src="https://blinkies.cafe/b/display/0282-miraclemoon.gif" />
+</p>
+
+<div align="center">
+  <img src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif" />
+  <img src="https://blob.gifcities.org/gifcities/OV7U4KOPZVPD2IRAI3JAWEKU3HF7XSEU.gif" />
+  <img src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif" />
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ================= GITHUB SNAKE & MUSIC PLAYER ================= -->
+<table align="center" width="100%">
+<tr>
+
+<!-- LEFT: GITHUB SNAKE CONTRIBUTION ANIMATION -->
+<td width="65%" valign="top" align="center">
+
+<b>GITHUB ACTIVITY GRAPH & SNAKE</b>
+<br/><br/>
+
+<!-- SNAKE ANIMATION OVER CONTRIBUTION GRAPH -->
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+
+<br/><br/>
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false" width="100%" />
+
+</td>
+
+<!-- RIGHT: MUSIC PLAYER (ONLY INTERNET GIRL BY KATSEYE) -->
+<td width="35%" valign="top" align="center">
+
+<b>WINAMP AUDIO PLAYER</b>
+<br/><br/>
+
+<pre align="left"><code>============================
+[NOW PLAYING]
+Track  : Internet Girl
+Artist : KATSEYE
+Format : Stereo 44.1kHz MP3
+============================
+[►] 01:24 ──●──────── 02:48
+[⏮]  [❚❚]  [▶]  [⏭]  [🔁]</code></pre>
+
+<p align="center">
+  <a href="https://open.spotify.com/search/KATSEYE%20Internet%20Girl" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-Play_Internet_Girl-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
+</p>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ================= FOOTER / TASKBAR ================= -->
+<div align="center">
+
+<table width="100%">
+<tr>
+  <td align="left">
+    <b>[ Start ]</b> <code>[ Terminal ]</code> <code>[ LeetCode ]</code> <code>[ Winamp ]</code>
+  </td>
+  <td align="right">
+    <code>11:11 PM</code>
+  </td>
+</tr>
+</table>
+
+<br/>
+
+<!-- VISITOR COUNTER -->
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=black&label=VISITORS" />
+
+</div>
