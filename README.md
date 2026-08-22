@@ -29,14 +29,15 @@
 
 <pre align="left"><code>[IDENTIFICATION]
 USER       : [YOUR_NAME]
-ROLE       : Software Engineer
-FAV_COLOR  : #D8B4E2 (Lavender / Soft Purple)
-FOCUS      : Full-Stack & System Design
+ROLE       : Student
+FAV_COLOR  :  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
+
+FOCUS      : Leetcode & Webdev
 STATUS     : Online / Compiling</code></pre>
 
 <p align="center">
-  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
-  <img src="https://blob.gifcities.org/gifcities/YKAHNHNJJWOVQ6QD62CLVZYGTXLWRYJM.gif" />
+ 
+  
 </p>
 
 </td>
@@ -97,10 +98,12 @@ STATUS     : Online / Compiling</code></pre>
   <img src="https://blob.gifcities.org/gifcities/ZCR2MLQRZ3LMT4D77CX7ZPMPNAHW4YJB.gif" />
 </div>
 
-<h3><b>ABOUT ME</b></h3>
+
+  <img src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif" />
+
 
 <p>
-  Just a girl with a computer building software, exploring backend systems, and solving algorithms. When I am not writing code or practicing data structures, I am curating retro web designs, experimenting with creative tools, and exploring the indie web revival.
+  Just a girl
 </p>
 
 <!-- 3 SPECIFIC BLINKIES -->
@@ -108,12 +111,14 @@ STATUS     : Online / Compiling</code></pre>
   <img src="https://blinkies.cafe/b/blinkiesCafe-DP.gif" />
   <img src="https://blinkies.cafe/b/display/0275-spiderweb.gif" />
   <img src="https://blinkies.cafe/b/display/0282-miraclemoon.gif" />
+  <img src="https://blob.gifcities.org/gifcities/YKAHNHNJJWOVQ6QD62CLVZYGTXLWRYJM.gif" />
+  <img src="https://blob.gifcities.org/gifcities/OV7U4KOPZVPD2IRAI3JAWEKU3HF7XSEU.gif" />
 </p>
 
 <div align="center">
   <img src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif" />
-  <img src="https://blob.gifcities.org/gifcities/OV7U4KOPZVPD2IRAI3JAWEKU3HF7XSEU.gif" />
-  <img src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif" />
+  
+
 </div>
 
 </td>
