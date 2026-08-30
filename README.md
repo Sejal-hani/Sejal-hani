@@ -1,10 +1,16 @@
+<!-- ========================================================= -->
+<!--                  GITHUB PROFILE README                    -->
+<!-- ========================================================= -->
+
 <div align="center">
 
 <!-- TOP VINTAGE BANNER -->
 <img src="https://blob.gifcities.org/gifcities/SDP2Y4CE4VCCWQYJIUOOMUWBQQPNTZ6T.gif" width="100%" />
 
-<!-- TOP STAMP & BLINKIE ROW -->
-<p align="center">
+<br/>
+
+<!-- BLINKIES -->
+<p>
   <img src="https://cyber.dabamos.de/88x31/7nonsense.gif" />
   <img src="https://cyber.dabamos.de/88x31/cooltxt.gif" />
   <img src="https://cyber.dabamos.de/88x31/mysql-88x31-bow.gif" />
@@ -17,37 +23,48 @@
 
 <br/>
 
-<!-- ================= TOP SECTION: ID CARD & TECH STACK ================= -->
-<table align="center" width="100%">
+<!-- ========================================================= -->
+<!--              ID CARD + TECH STACK                         -->
+<!-- ========================================================= -->
+
+<!-- Added align="center" and a max-width to keep the table beautifully centered and tight -->
+<table width="100%" align="center" style="max-width: 850px; margin: 0 auto; border-collapse: collapse;">
 <tr>
 
-<!-- LEFT: ID CARD (PHOTO + DETAILS) -->
-<td width="34%" valign="top" align="center">
+<!-- ===================== ID CARD ========================== -->
+<!-- Increased width to 42% so your details have plenty of horizontal breathing room -->
+<td width="42%" valign="top" align="center" style="padding-right: 20px;">
 
-<img src="https://blob.gifcities.org/gifcities/PNFV47MN3BSCNWV5G3MOSBEZJOPSWXGC.gif" width="200" style="border: 2px solid #333;" />
+<img
+src="https://blob.gifcities.org/gifcities/PNFV47MN3BSCNWV5G3MOSBEZJOPSWXGC.gif"
+width="200"
+/>
+
 <br/><br/>
 
-<pre align="left"><code>[IDENTIFICATION]
-USER       : [YOUR_NAME]
-ROLE       : Student
-FAV_COLOR  :  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
-
-FOCUS      : Leetcode & Webdev
-STATUS     : Online / Compiling</code></pre>
-
-<p align="center">
- 
-  
-</p>
+<!-- Wrapped text in a monospace style block so your &nbsp; spacing aligns perfectly like a terminal -->
+<div align="left" style="font-family: monospace; font-size: 14px; line-height: 1.6;">
+USER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : GALAXY_ANNIHILATOR
+<br>
+ROLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Student
+<br>
+FAV_COLOR&nbsp; : 
+<img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" height="22" style="vertical-align: middle;" />
+<br>
+FOCUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : LeetCode &amp; Webdev
+<br>
+STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
+</div>
 
 </td>
 
-<!-- RIGHT: PROFESSIONAL TECH STACK & LEETCODE -->
-<td width="66%" valign="top">
+<!-- =================== TECH STACK ======================== -->
+<!-- Adjusted width to 58% to balance out the newly widened ID card side -->
+<td width="58%" valign="top" align="center" style="padding-left: 20px;">
 
-<h3><b>TECH STACK & ARSENAL</b></h3>
+<h3>TECH STACK & ARSENAL</h3>
 
-<b>Languages:</b><br/>
+<b>Languages</b>
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -56,7 +73,7 @@ STATUS     : Online / Compiling</code></pre>
   <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
-<b>Frameworks & Backend:</b><br/>
+<b>Frameworks & Backend</b>
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -65,7 +82,7 @@ STATUS     : Online / Compiling</code></pre>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
-<b>Developer Tools:</b><br/>
+<b>Developer Tools</b>
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
@@ -73,126 +90,213 @@ STATUS     : Online / Compiling</code></pre>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
 </p>
 
-<hr style="border: 1px solid #eaeaea;" />
+<hr/>
 
-<b>Competitive Programming & Problem Solving:</b><br/>
-<p>
-  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode_Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-</p>
-<img src="https://leetcode-stats-api.herokuapp.com/api?username=YOUR_LEETCODE_USERNAME&theme=Light" width="100%" />
+<h3>COMPETITIVE PROGRAMMING</h3>
+
+<a href="https://leetcode.com/u/galaxy_annihilator/" target="_blank">
+  <img
+    src="https://leetcard.jacoblin.cool/galaxy_annihilator?theme=dark&font=Ubuntu&ext=heatmap"
+    width="100%"
+    alt="LeetCode Stats"
+  />
+</a>
+</a>
+
+<br/><br/>
+
+
+
+</a>
+
+
+</a>
+
 
 </td>
+
 </tr>
 </table>
 
 <br/>
 
-<!-- ================= ABOUT ME SECTION WITH BLINKIES ================= -->
-<table align="center" width="100%">
-<tr>
-<td style="padding: 15px;">
 
-<div align="right">
-  <img src="https://blob.gifcities.org/gifcities/ZCR2MLQRZ3LMT4D77CX7ZPMPNAHW4YJB.gif" />
-</div>
+<!-- ========================================================= -->
 
+<!--                     ABOUT ME                              -->
 
-  <img src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif" />
+<!-- ========================================================= -->
 
+<!-- ========================= ABOUT ME ========================= -->
+
+<div align="center">
+
+<br/>
+
+<!-- ABOUT ME TITLE -->
+<img
+  src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif"
+  width="360"
+/>
+
+<br/><br/>
+
+<h3>Just a girl ✦</h3>
+
+<hr width="70%"/>
 
 <p>
-  Just a girl
+  coding things, breaking things,<br/>
+  and occasionally making them work.
 </p>
 
-<!-- 3 SPECIFIC BLINKIES -->
-<p align="center">
+<br/>
+
+<!-- DECORATIVE BADGES -->
+<p>
   <img src="https://blinkies.cafe/b/blinkiesCafe-DP.gif" />
   <img src="https://blinkies.cafe/b/display/0275-spiderweb.gif" />
   <img src="https://blinkies.cafe/b/display/0282-miraclemoon.gif" />
+</p>
+
+<p>
   <img src="https://blob.gifcities.org/gifcities/YKAHNHNJJWOVQ6QD62CLVZYGTXLWRYJM.gif" />
   <img src="https://blob.gifcities.org/gifcities/OV7U4KOPZVPD2IRAI3JAWEKU3HF7XSEU.gif" />
 </p>
 
-<div align="center">
-  <img src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif" />
-  
+<br/>
 
-</div>
+<!-- SMALL DECORATIVE CHARACTER -->
+<img
+  src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif"
+  width="180"
+/>
 
-</td>
-</tr>
-</table>
+<br/><br/>
+
 
 <br/>
 
-<!-- ================= GITHUB SNAKE & MUSIC PLAYER ================= -->
-<table align="center" width="100%">
+<!-- ========================================================= -->
+
+<!--              GITHUB ACTIVITY + WINAMP                     -->
+
+<!-- ========================================================= -->
+
+<table width="100%">
 <tr>
 
-<!-- LEFT: GITHUB SNAKE CONTRIBUTION ANIMATION -->
+<!-- ================= GITHUB ACTIVITY ===================== -->
+
 <td width="65%" valign="top" align="center">
 
-<b>GITHUB ACTIVITY GRAPH & SNAKE</b>
+<h3>GITHUB ACTIVITY</h3>
+
+<br/>
+
+<!-- Replace YOUR_USERNAME with your GitHub username -->
+
+<img
+src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"
+alt="GitHub Contribution Snake"
+width="100%"
+/>
+
 <br/><br/>
 
-<!-- SNAKE ANIMATION OVER CONTRIBUTION GRAPH -->
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
-
-<br/><br/>
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false" width="100%" />
+<img
+src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false"
+width="100%"
+/>
 
 </td>
 
-<!-- RIGHT: MUSIC PLAYER (ONLY INTERNET GIRL BY KATSEYE) -->
+<!-- ==================== WINAMP ============================ -->
+
 <td width="35%" valign="top" align="center">
 
-<b>WINAMP AUDIO PLAYER</b>
-<br/><br/>
+<h3>WINAMP AUDIO PLAYER</h3>
 
-<pre align="left"><code>============================
+<br/>
+
+<pre align="left">
+============================
+
 [NOW PLAYING]
+
 Track  : Internet Girl
 Artist : KATSEYE
 Format : Stereo 44.1kHz MP3
+
 ============================
+
 [►] 01:24 ──●──────── 02:48
-[⏮]  [❚❚]  [▶]  [⏭]  [🔁]</code></pre>
 
-<p align="center">
-  <a href="https://open.spotify.com/search/KATSEYE%20Internet%20Girl" target="_blank">
-    <img src="https://img.shields.io/badge/Spotify-Play_Internet_Girl-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
-  </a>
-</p>
+[⏮]  [❚❚]  [▶]  [⏭]  [🔁]
 
-<p align="center">
-  <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" />
-</p>
+============================
+</pre>
+
+<br/>
+
+<a
+href="https://open.spotify.com/search/KATSEYE%20Internet%20Girl"
+target="_blank"
+
+>
+
+<img
+ src="https://img.shields.io/badge/Spotify-Play_Internet_Girl-1DB954?style=for-the-badge&logo=spotify&logoColor=white"
+/> </a>
+
+<br/><br/>
+
+<img
+src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif"
+/>
 
 </td>
+
 </tr>
 </table>
 
 <br/>
 
-<!-- ================= FOOTER / TASKBAR ================= -->
+<!-- ========================================================= -->
+
+<!--                       FOOTER                              -->
+
+<!-- ========================================================= -->
+
 <div align="center">
 
 <table width="100%">
 <tr>
-  <td align="left">
-    <b>[ Start ]</b> <code>[ Terminal ]</code> <code>[ LeetCode ]</code> <code>[ Winamp ]</code>
-  </td>
-  <td align="right">
-    <code>11:11 PM</code>
-  </td>
+
+<td align="left">
+  <b>[ Start ]</b>
+  <code>[ Terminal ]</code>
+  <code>[ LeetCode ]</code>
+  <code>[ Winamp ]</code>
+</td>
+
+<td align="right">
+  <code>11:11 PM</code>
+</td>
+
 </tr>
 </table>
 
 <br/>
 
 <!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=black&label=VISITORS" />
+
+<img
+src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=black&label=VISITORS"
+/>
+
+<br/><br/>
+
+<img src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif" />
 
 </div>
