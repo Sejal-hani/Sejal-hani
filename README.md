@@ -27,40 +27,33 @@
 <!--              ID CARD + TECH STACK                         -->
 <!-- ========================================================= -->
 
-<!-- Added align="center" and a max-width to keep the table beautifully centered and tight -->
-<table width="100%" align="center" style="max-width: 850px; margin: 0 auto; border-collapse: collapse;">
+<table width="100%" align="center">
 <tr>
 
 <!-- ===================== ID CARD ========================== -->
-<!-- Increased width to 42% so your details have plenty of horizontal breathing room -->
-<td width="42%" valign="top" align="center" style="padding-right: 20px;">
+<td width="40%" valign="top" align="center">
+
+<br/>
 
 <img
-src="https://blob.gifcities.org/gifcities/PNFV47MN3BSCNWV5G3MOSBEZJOPSWXGC.gif"
-width="200"
+  src="https://blob.gifcities.org/gifcities/PNFV47MN3BSCNWV5G3MOSBEZJOPSWXGC.gif"
+  width="190"
 />
 
 <br/><br/>
 
-<!-- Wrapped text in a monospace style block so your &nbsp; spacing aligns perfectly like a terminal -->
-<div align="left" style="font-family: monospace; font-size: 14px; line-height: 1.6;">
-USER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : GALAXY_ANNIHILATOR
-<br>
-ROLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Student
-<br>
-FAV_COLOR&nbsp; : 
-<img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" height="22" style="vertical-align: middle;" />
-<br>
-FOCUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : LeetCode &amp; Webdev
-<br>
-STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
+<div align="left" style="font-family: monospace; font-size: 13px; line-height: 1.6; padding: 10px;">
+<code>USER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</code> GALAXY_ANNIHILATOR<br/>
+<code>ROLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</code> Student<br/>
+<code>FAV_COLOR&nbsp; :</code> <img src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif" height="18" style="vertical-align: middle;" /><br/>
+<code>FOCUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</code> LeetCode &amp; Webdev<br/>
+<code>STATUS&nbsp;&nbsp;&nbsp;&nbsp; :</code> Locking In
 </div>
 
 </td>
 
 <!-- =================== TECH STACK ======================== -->
-<!-- Adjusted width to 58% to balance out the newly widened ID card side -->
-<td width="58%" valign="top" align="center" style="padding-left: 20px;">
+<td width="60%" valign="top" align="center">
 
 <h3>TECH STACK & ARSENAL</h3>
 
@@ -101,17 +94,6 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
     alt="LeetCode Stats"
   />
 </a>
-</a>
-
-<br/><br/>
-
-
-
-</a>
-
-
-</a>
-
 
 </td>
 
@@ -120,39 +102,32 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
 
 <br/>
 
-
+<!-- ========================================================= -->
+<!--          ABOUT ME & NOW PLAYING (SIDE-BY-SIDE)            -->
 <!-- ========================================================= -->
 
-<!--                     ABOUT ME                              -->
+<table width="100%" align="center">
+<tr>
 
-<!-- ========================================================= -->
-
-<!-- ========================= ABOUT ME ========================= -->
-
-<div align="center">
+<!-- ======================= LEFT BOX: ABOUT ME ======================= -->
+<td width="50%" valign="top" align="center">
 
 <br/>
 
-<!-- ABOUT ME TITLE -->
 <img
   src="https://blob.gifcities.org/gifcities/Z3QA5MHIEXLIE33SVIUGTRDWGU7AP5HQ.gif"
-  width="360"
+  width="240"
 />
-
-<br/><br/>
 
 <h3>Just a girl ✦</h3>
 
-<hr width="70%"/>
+<hr width="80%"/>
 
 <p>
   coding things, breaking things,<br/>
   and occasionally making them work.
 </p>
 
-<br/>
-
-<!-- DECORATIVE BADGES -->
 <p>
   <img src="https://blinkies.cafe/b/blinkiesCafe-DP.gif" />
   <img src="https://blinkies.cafe/b/display/0275-spiderweb.gif" />
@@ -164,77 +139,64 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
   <img src="https://blob.gifcities.org/gifcities/OV7U4KOPZVPD2IRAI3JAWEKU3HF7XSEU.gif" />
 </p>
 
-<br/>
-
-<!-- SMALL DECORATIVE CHARACTER -->
 <img
   src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif"
-  width="180"
+  width="150"
 />
 
 <br/><br/>
 
+</td>
+
+<!-- ===================== RIGHT BOX: NOW PLAYING ===================== -->
+<td width="50%" valign="top" align="center">
 
 <br/>
 
-<!-- ========================================================= -->
-<!--                    NOW PLAYING                            -->
-<!-- ========================================================= -->
-
-<div align="center">
-
-<h3>♫ NOW PLAYING ♫</h3>
+<h3>♫ NOW PLAYING</h3>
 
 <br/>
 
-<table width="80%">
-<tr>
-
-<td align="center">
-
-<pre>
-╔══════════════════════════════════════╗
-║          ♫  WINAMP  ♫              ║
-╠══════════════════════════════════════╣
-║                                      ║
-║          INTERNET GIRL              ║
-║             KATSEYE                 ║
-║                                      ║
-║          01:24 ──●──── 02:48        ║
-║                                      ║
-║       ♫  STEREO · 44.1kHz  ♫        ║
-║                                      ║
-╚══════════════════════════════════════╝
-</pre>
-
-<br/>
-
-<!-- CLICK TO PLAY THE MP3 -->
-<a
-  href="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/KATSEYE%20-%20Internet%20Girl.mp3"
-  target="_blank"
->
-  <img
-    src="https://img.shields.io/badge/▶_PLAY_INTERNET_GIRL-ff69b4?style=for-the-badge&logo=musicbrainz&logoColor=white"
-    alt="Play Internet Girl"
-  />
+<a href="https://open.spotify.com/search/KATSEYE%20INTERNET%20GIRL" target="_blank">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3A5eG53NDVvYnZleXhxZDJ3ZDF0anlkY2ZpeDR4c3M1N2YxN2dyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lq0h93752f6J9tijrh/giphy.gif" width="130" alt="Cassette Player"/>
 </a>
 
 <br/><br/>
 
-<code>♡ currently obsessed ♡</code>
+<h3 style="margin: 0;">INTERNET GIRL</h3>
+<sub style="color: #ff69b4;">KATSEYE</sub>
+
+<br/><br/>
+
+<!-- If you want GitHub's native video player here: Edit this README on GitHub.com and drag & drop your MP4 right below -->
+
+
+https://github.com/user-attachments/assets/77001bdc-3a30-4d9c-8759-63b723e72996
+
+
+<p>
+  <a href="https://open.spotify.com/search/KATSEYE%20INTERNET%20GIRL" target="_blank">
+    <img src="https://img.shields.io/badge/▶_PLAY_ON_SPOTIFY-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+</p>
+
+<code>[ ◀◀ ] &nbsp; [ ▶ ] &nbsp; [ ❚❚ ] &nbsp; [ ▶▶ ] &nbsp; [ ◼ ]</code>
+
+<br/><br/>
+
+<code>STEREO · 44.1 kHz · Hi-Fi</code>
+
+<br/><br/>
 
 </td>
 
 </tr>
 </table>
 
-</div>
-
 <br/>
 
 <!-- ========================================================= -->
-<!--                 GITHUB ACTIVITY                           -->
+<!--                  GITHUB ACTIVITY                          -->
 <!-- ========================================================= -->
 
 <div align="center">
@@ -243,28 +205,23 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
 
 <br/>
 
-<!-- LIGHT / DARK SNAKE -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake-dark.svg"
   />
-
   <source
     media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake.svg"
   />
-
   <img
-    alt="GitHub Contribution Snake"
     src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
     width="100%"
   />
 </picture>
 
 <br/><br/>
-
-<!-- GITHUB STATS -->
 
 <img
   src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false"
@@ -305,43 +262,5 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
   src="https://komarev.com/ghpvc/?username=Sejal-hani&style=flat-square&color=black&label=VISITORS"
   alt="Profile visitors"
 />
-
-</div>
-<!-- ========================================================= -->
-
-<!--                       FOOTER                              -->
-
-<!-- ========================================================= -->
-
-<div align="center">
-
-<table width="100%">
-<tr>
-
-<td align="left">
-  <b>[ Start ]</b>
-  <code>[ Terminal ]</code>
-  <code>[ LeetCode ]</code>
-  <code>[ Winamp ]</code>
-</td>
-
-<td align="right">
-  <code>11:11 PM</code>
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<!-- VISITOR COUNTER -->
-
-<img
-src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=black&label=VISITORS"
-/>
-
-<br/><br/>
-
-<img src="https://blob.gifcities.org/gifcities/PA4FNHWC542HZXNP46JAO2V2RP5UXT57.gif" />
 
 </div>
