@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Internet Girl — Winamp</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #080a0f;
+      color: #e8e8e8;
+      font-family: monospace;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .player {
+      width: 420px;
+      background: #11151c;
+      border: 2px solid #3b414d;
+      box-shadow:
+        0 0 0 4px #080a0f,
+        0 0 30px rgba(255, 105, 180, 0.15);
+    }
+
+    .titlebar {
+      background: #202631;
+      border-bottom: 2px solid #3b414d;
+
+      padding: 8px 12px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      font-weight: bold;
+    }
+
+    .title {
+      color: #ff69b4;
+    }
+
+    .window-buttons {
+      color: #aaa;
+    }
+
+    .screen {
+      padding: 24px;
+      text-align: center;
+    }
+
+    .album {
+      width: 130px;
+      height: 130px;
+
+      margin: 0 auto 20px;
+
+      border: 2px solid #555;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: #181d25;
+
+      font-size: 12px;
+      color: #ff69b4;
+    }
+
+    .track {
+      font-size: 22px;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .artist {
+      color: #aaa;
+      margin-bottom: 22px;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    button {
+      background: #191e27;
+      color: #eee;
+
+      border: 1px solid #555;
+
+      padding: 8px 14px;
+
+      font-family: monospace;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: #ff69b4;
+      color: #ff69b4;
+    }
+
+    .footer {
+      border-top: 1px solid #333;
+      padding: 10px;
+
+      text-align: center;
+
+      color: #777;
+      font-size: 11px;
+    }
+
+    .playing {
+      color: #ff69b4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="player">
+
+    <div class="titlebar">
+      <span class="title">♫ WINAMP</span>
+      <span class="window-buttons">— □ ×</span>
+    </div>
+
+    <div class="screen">
+
+      <div class="album">
+        ♡<br>
+        INTERNET<br>
+        GIRL
+      </div>
+
+      <div class="track">
+        Internet Girl
+      </div>
+
+      <div class="artist">
+        KATSEYE
+      </div>
+
+      <audio id="audio" controls preload="metadata">
+        <source
+          src="./KATSEYE%20-%20Internet%20Girl.mp3"
+          type="audio/mpeg"
+        >
+        Your browser does not support audio playback.
+      </audio>
+
+      <div class="buttons">
+
+        <button onclick="rewind()">
+          ⏪
+        </button>
+
+        <button onclick="togglePlay()" id="playButton">
+          ▶ PLAY
+        </button>
+
+        <button onclick="forward()">
+          ⏩
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <span id="status">READY</span>
+      &nbsp; • &nbsp;
+      Stereo 44.1kHz MP3
+    </div>
+
+  </div>
+
+
+  <script>
+
+    const audio = document.getElementById("audio");
+    const playButton = document.getElementById("playButton");
+    const status = document.getElementById("status");
+
+    function togglePlay() {
+
+      if (audio.paused) {
+
+        audio.play();
+
+      } else {
+
+        audio.pause();
+
+      }
+
+    }
+
+    function rewind() {
+      audio.currentTime = Math.max(0, audio.currentTime - 10);
+    }
+
+    function forward() {
+      audio.currentTime = Math.min(
+        audio.duration || Infinity,
+        audio.currentTime + 10
+      );
+    }
+
+    audio.addEventListener("play", () => {
+
+      playButton.textContent = "❚❚ PAUSE";
+      status.textContent = "PLAYING";
+      status.className = "playing";
+
+    });
+
+    audio.addEventListener("pause", () => {
+
+      playButton.textContent = "▶ PLAY";
+      status.textContent = "PAUSED";
+      status.className = "";
+
+    });
+
+    audio.addEventListener("ended", () => {
+
+      playButton.textContent = "▶ PLAY";
+      status.textContent = "FINISHED";
+      status.className = "";
+
+    });
+
+  </script>
+
+</body>
+
+</html>
