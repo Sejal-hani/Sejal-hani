@@ -178,83 +178,122 @@ STATUS&nbsp;&nbsp;&nbsp;&nbsp; : Locking In
 <br/>
 
 <!-- ========================================================= -->
-
-<!--              GITHUB ACTIVITY + WINAMP                     -->
-
+<!--                    NOW PLAYING                            -->
 <!-- ========================================================= -->
 
-<table width="100%">
+<div align="center">
+
+<h3>♫ NOW PLAYING ♫</h3>
+
+<br/>
+
+<table width="80%">
 <tr>
 
-<!-- ================= GITHUB ACTIVITY ===================== -->
+<td align="center">
 
-<td width="65%" valign="top" align="center">
+<pre>
+╔══════════════════════════════════════╗
+║          ♫  WINAMP  ♫              ║
+╠══════════════════════════════════════╣
+║                                      ║
+║          INTERNET GIRL              ║
+║             KATSEYE                 ║
+║                                      ║
+║          01:24 ──●──── 02:48        ║
+║                                      ║
+║       ♫  STEREO · 44.1kHz  ♫        ║
+║                                      ║
+╚══════════════════════════════════════╝
+</pre>
+
+<br/>
+
+<!-- CLICK TO PLAY THE MP3 -->
+<a
+  href="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/main/docs/KATSEYE%20-%20Internet%20Girl.mp3"
+  target="_blank"
+>
+  <img
+    src="https://img.shields.io/badge/▶_PLAY_INTERNET_GIRL-ff69b4?style=for-the-badge&logo=musicbrainz&logoColor=white"
+    alt="Play Internet Girl"
+  />
+</a>
+
+<br/><br/>
+
+<code>♡ currently obsessed ♡</code>
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- ========================================================= -->
+<!--                 GITHUB ACTIVITY                           -->
+<!-- ========================================================= -->
+
+<div align="center">
 
 <h3>GITHUB ACTIVITY</h3>
 
 <br/>
 
-<!-- Replace YOUR_USERNAME with your GitHub username -->
+<!-- LIGHT / DARK SNAKE -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake-dark.svg"
+  />
 
-<img
-src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"
-alt="GitHub Contribution Snake"
-width="100%"
-/>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Sejal-hani/Sejal-hani/output/github-contribution-grid-snake.svg"
+    width="100%"
+  />
+</picture>
 
 <br/><br/>
 
+<!-- GITHUB STATS -->
+
 <img
-src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false"
-width="100%"
+  src="https://github-readme-stats.vercel.app/api?username=Sejal-hani&show_icons=true&title_color=000000&text_color=333333&icon_color=ff69b4&bg_color=ffffff&hide_border=false"
+  width="80%"
+  alt="GitHub Stats"
 />
 
+</div>
+
+<br/>
+
+<!-- ========================================================= -->
+<!--                       FOOTER                              -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<table width="100%">
+<tr>
+
+<td align="left">
+  <b>[ Start ]</b>
+  <code>[ Terminal ]</code>
+  <code>[ LeetCode ]</code>
+  <code>[ Winamp ]</code>
 </td>
 
-<!-- ==================== WINAMP ============================ -->
-
-<td width="35%" valign="top" align="center">
-
-<h3>WINAMP AUDIO PLAYER</h3>
-
-<br/>
-
-<pre align="left">
-============================
-
-[NOW PLAYING]
-
-Track  : Internet Girl
-Artist : KATSEYE
-Format : Stereo 44.1kHz MP3
-
-============================
-
-[►] 01:24 ──●──────── 02:48
-
-[⏮]  [❚❚]  [▶]  [⏭]  [🔁]
-
-============================
-</pre>
-
-<br/>
-
-<a
-href="https://open.spotify.com/search/KATSEYE%20Internet%20Girl"
-target="_blank"
-
->
-
-<img
- src="https://img.shields.io/badge/Spotify-Play_Internet_Girl-1DB954?style=for-the-badge&logo=spotify&logoColor=white"
-/> </a>
-
-<br/><br/>
-
-<img
-src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif"
-/>
-
+<td align="right">
+  <code>11:11 PM</code>
 </td>
 
 </tr>
@@ -262,6 +301,12 @@ src="https://blob.gifcities.org/gifcities/UVX2VOPTF5MRCTNHWUBHKD3M3L542MGB.gif"
 
 <br/>
 
+<img
+  src="https://komarev.com/ghpvc/?username=Sejal-hani&style=flat-square&color=black&label=VISITORS"
+  alt="Profile visitors"
+/>
+
+</div>
 <!-- ========================================================= -->
 
 <!--                       FOOTER                              -->
