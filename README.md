@@ -5,7 +5,7 @@
 <div align="center">
 
 <!-- TOP VINTAGE BANNER -->
-<img src="https://blob.gifcities.org/gifcities/SDP2Y4CE4VCCWQYJIUOOMUWBQQPNTZ6T.gif" width="100%" />
+<img src="https://www.glittersbuddy.com/wp-content/uploads/2022/01/Welcome-Glitters-6.gif" width="100%" />
 
 <br/>
 
